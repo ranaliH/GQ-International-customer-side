@@ -1,0 +1,25 @@
+.Widgetsm{
+    flex:1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.WidgetsmTitle{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.widgetSmImg{
+    font-size: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

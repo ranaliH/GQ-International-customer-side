@@ -1,0 +1,103 @@
+.item{
+    width: 300px;
+    padding: 1rem;
+    background-color:rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 4px rgba(8, 1, 1, 0.904);
+    border: black;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.item > img{
+    height: 170px;
+    border-radius: 8px;
+}
+
+.item__info > p{
+    margin-bottom: 8px;
+    color: black;
+}
+
+.info__price{
+    font-weight: bold;
+    color: #f4f4f4;
+}
+.info__code{
+    font-size: 1rem;
+    overflow: hidden;
+}
+.info__name{
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.info__description{
+    font-size: 0.8rem;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #8E0E00 0%, #1F1C18 51%, #8E0E00 100%)}
+.btn-grad {
+width: 250px;
+height: 50px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;
+border-radius: 10px;
+display: block;
+} .btn-grad:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
+
+
+
+/*Making the items in the screen more responsive*/
+@media(max-width:1232px){
+    .item{
+        width: 360px;
+    }
+}
+
+@media(max-width:1115px){
+    .item{
+        width: 330px;
+    }
+}
+
+@media(max-width:1028px){
+    .item{
+        width: 300px;
+    }
+}
+
+@media(max-width:950px){
+    .item{
+        width: 400px;
+    }
+}
+
+@media(max-width:830px){
+    .item{
+        width: 330px;
+    }
+}
+
+@media(max-width:700px){
+    .item{
+        width: 290px;
+    }
+}
+
+@media(max-width:630px){
+    .item{
+        width: 450px;
+    }
+}
+

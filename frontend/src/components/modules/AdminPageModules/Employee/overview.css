@@ -1,0 +1,9 @@
+.Employee{
+    flex:4;
+}
+
+.HomeWidgets{
+    display: flex;
+    margin: 20px;
+
+}

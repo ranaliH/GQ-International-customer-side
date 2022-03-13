@@ -1,0 +1,36 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredItem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    align-items: center;
+    text-align: center;
+}
+
+.featuredItem.active,
+.featuredItem:hover{
+    color:royalblue;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.featuredTitle{
+    font-size:20px;
+
+}
+
+.featuredMoney{
+    font-size:30px;
+    font-weight:600;
+   text-align: center;
+    
+}
